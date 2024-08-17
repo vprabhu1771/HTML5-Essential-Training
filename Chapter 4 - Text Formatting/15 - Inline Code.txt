@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Hello World</h1>
+
+    <p>Program to Display "Hello, World!"</p>
+
+    <code>
+        #include&lt;stdio.h&gt; <br>
+        #include&lt;conio.h&gt; <br>
+        int main() <br>
+        {   <br>
+
+            clrscr(); <br>
+            printf("Hello world");<br>
+
+            getch(); <br>
+        }
+    </code>
+    
+</body>
+</html>

@@ -1,0 +1,3 @@
+<form action="/submit" method="post">
+    <!-- Form elements here -->
+</form>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+</head>
+<body>
+
+    <p>This is a paragraph of text. It can contain <a href="#">links</a> and other <em>emphasized</em> text.</p>
+
+
+</body>
+</html>

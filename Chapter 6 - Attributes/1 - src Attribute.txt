@@ -1,0 +1,3 @@
+<img src="image.jpg" alt="A beautiful image">
+
+<script src="script.js"></script>

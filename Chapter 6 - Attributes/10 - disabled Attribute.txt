@@ -1,0 +1,3 @@
+<input type="text" id="disabledInput" name="disabledInput" disabled>
+
+<button type="button" disabled>Disabled Button</button>

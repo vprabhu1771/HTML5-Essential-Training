@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Page</title>
+</head>
+<body>
+
+    <form action="/submit" method="post">
+
+        <label for="username">Username:</label>
+
+        <input type="text" id="username" name="username" required>
+    
+        <label for="password">Password:</label>
+
+        <input type="password" id="password" name="password" required>
+    
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+    
+        <button type="submit">Submit</button>
+        
+    </form>    
+
+</body>
+</html>

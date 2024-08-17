@@ -1,0 +1,3 @@
+<img src="image.jpg" width="200" height="150" alt="A smaller image">
+
+<canvas width="400" height="300"></canvas>
