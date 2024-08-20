@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <object data="document.pdf" type="application/pdf" width="600" height="800">
+        <p>It appears you don't have a PDF plugin for this browser. No worries, you can <a href="document.pdf">click here to download the PDF file.</a></p>
+    </object>    
+    
+</body>
+</html>
