@@ -1,0 +1,47 @@
+Using an external stylesheet in HTML is a good practice as it helps separate the structure (HTML) from the presentation (CSS), making your code more organized and maintainable. Here's how you can link an external stylesheet to your HTML document:
+
+1. **Create your CSS file:**
+   Save your styles in a separate file with a `.css` extension. For example, you can name it `styles.css`. Here's an example of a simple CSS file:
+
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Add more styles as needed */
+
+
+
+2. **Link the CSS file to your HTML document:**
+   In the `<head>` section of your HTML document, use the `<link>` element to reference the external stylesheet. Add the following line inside the `<head>` tag:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+    <h1>abcd</h1>
+
+</body>
+</html>
+
+
+
+   Make sure to adjust the `href` attribute in the `<link>` element to match the path of your CSS file relative to your HTML file.
+
+By doing this, the styles defined in your external CSS file (`styles.css` in this example) will be applied to the HTML document. This separation of concerns makes it easier to update styles across multiple pages and promotes a more modular and maintainable code structure.

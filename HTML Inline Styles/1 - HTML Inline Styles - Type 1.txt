@@ -1,0 +1,26 @@
+In HTML, you can use inline styles to apply styling directly to individual elements. To do this, you use the `style` attribute within the HTML tag. Here's a simple example:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Stylesheet Example</title>
+</head>
+<body>
+
+    <h1 style="color: blue; text-align: center;">Hello, World!</h1>
+    
+    <p style="font-size: 16px; line-height: 1.5;">This is a paragraph with inline styles applied.</p>
+
+</body>
+</html>
+
+
+In this example:
+
+- The `<h1>` element has inline styles for color and text alignment.
+- The `<p>` element has inline styles for font size and line height.
+
+You can apply various CSS properties within the `style` attribute to control the appearance of the element. Note that using inline styles can make your HTML code less maintainable, especially for larger projects. It's often recommended to use an external stylesheet or internal styles within the `<style>` tag in the `<head>` section for better organization and maintainability.
